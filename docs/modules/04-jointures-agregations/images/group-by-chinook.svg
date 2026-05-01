@@ -1,0 +1,74 @@
+<svg width="1400" height="620" viewBox="0 0 1400 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="620" fill="#FCFCFD"/>
+
+  <style>
+    .title { font: 700 24px Arial, sans-serif; fill: #111827; }
+    .head { font: 700 19px Arial, sans-serif; fill: #111827; }
+    .cell { font: 400 18px Arial, sans-serif; fill: #1F2937; }
+    .small { font: 600 18px Arial, sans-serif; fill: #374151; }
+  </style>
+
+  <text x="60" y="52" class="title">Lignes de départ</text>
+  <text x="965" y="52" class="title">Résultat après GROUP BY genre</text>
+
+  <rect x="40" y="80" width="480" height="72" rx="10" fill="#E5E7EB"/>
+  <rect x="40" y="160" width="480" height="64" rx="10" fill="#F59EAE"/>
+  <rect x="40" y="232" width="480" height="64" rx="10" fill="#93D5E0"/>
+  <rect x="40" y="304" width="480" height="64" rx="10" fill="#F7D56B"/>
+  <rect x="40" y="376" width="480" height="64" rx="10" fill="#F59EAE"/>
+  <rect x="40" y="448" width="480" height="64" rx="10" fill="#93D5E0"/>
+
+  <line x1="290" y1="80" x2="290" y2="512" stroke="white" stroke-width="6"/>
+
+  <text x="88" y="126" class="head">piste</text>
+  <text x="356" y="126" class="head">genre</text>
+
+  <text x="70" y="199" class="cell">For Those About To Rock</text>
+  <text x="355" y="199" class="cell">Rock</text>
+
+  <text x="70" y="271" class="cell">Balls to the Wall</text>
+  <text x="355" y="271" class="cell">Metal</text>
+
+  <text x="70" y="343" class="cell">My Way</text>
+  <text x="355" y="343" class="cell">Easy Listening</text>
+
+  <text x="70" y="415" class="cell">Let There Be Rock</text>
+  <text x="355" y="415" class="cell">Rock</text>
+
+  <text x="70" y="487" class="cell">Metal Meltdown</text>
+  <text x="355" y="487" class="cell">Metal</text>
+
+  <rect x="930" y="160" width="360" height="72" rx="10" fill="#E5E7EB"/>
+  <rect x="930" y="246" width="360" height="72" rx="10" fill="#F59EAE"/>
+  <rect x="930" y="332" width="360" height="72" rx="10" fill="#93D5E0"/>
+  <rect x="930" y="418" width="360" height="72" rx="10" fill="#F7D56B"/>
+
+  <line x1="1130" y1="160" x2="1130" y2="490" stroke="white" stroke-width="6"/>
+
+  <text x="1002" y="205" class="head">genre</text>
+  <text x="1184" y="205" class="head">count(*)</text>
+
+  <text x="975" y="291" class="cell">Rock</text>
+  <text x="1215" y="291" class="cell">2</text>
+
+  <text x="975" y="377" class="cell">Metal</text>
+  <text x="1215" y="377" class="cell">2</text>
+
+  <text x="975" y="463" class="cell">Easy Listening</text>
+  <text x="1215" y="463" class="cell">1</text>
+
+  <path d="M560 192C665 192 785 210 905 278" stroke="#E66F86" stroke-width="4" stroke-linecap="round"/>
+  <path d="M892 266L905 278L887 280" stroke="#E66F86" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M560 264C670 270 790 300 905 364" stroke="#6EC1CE" stroke-width="4" stroke-linecap="round"/>
+  <path d="M892 352L905 364L887 366" stroke="#6EC1CE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M560 336C672 344 792 392 905 450" stroke="#E9B820" stroke-width="4" stroke-linecap="round"/>
+  <path d="M892 438L905 450L887 452" stroke="#E9B820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M560 408C665 390 785 330 905 278" stroke="#E66F86" stroke-width="4" stroke-linecap="round"/>
+  <path d="M892 266L905 278L887 280" stroke="#E66F86" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M560 480C670 462 790 406 905 364" stroke="#6EC1CE" stroke-width="4" stroke-linecap="round"/>
+  <path d="M892 352L905 364L887 366" stroke="#6EC1CE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

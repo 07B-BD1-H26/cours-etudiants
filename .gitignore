@@ -1,0 +1,14 @@
+# Dépendances
+node_modules/
+
+# Build VitePress
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Fichiers locaux
+start-site.bat
+serve/
+
+# OS
+.DS_Store
+Thumbs.db

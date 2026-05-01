@@ -1,0 +1,101 @@
+<svg width="1400" height="800" viewBox="0 0 1400 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="800" fill="#FAF8F4"/>
+
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #172033; }
+    .subtitle { font: 400 18px Arial, sans-serif; fill: #4B5563; }
+    .section { font: 700 20px Arial, sans-serif; fill: #172033; }
+    .label { font: 700 18px Arial, sans-serif; fill: #172033; }
+    .text { font: 400 17px Arial, sans-serif; fill: #253046; }
+    .note { font: 600 16px Arial, sans-serif; fill: #3B475C; }
+    .tiny { font: 400 15px Arial, sans-serif; fill: #5B6473; }
+  </style>
+
+  <text x="70" y="70" class="title">Hierarchie utilisateur - role - privileges</text>
+  <text x="70" y="102" class="subtitle">Un utilisateur recoit souvent ses droits en appartenant a un ou plusieurs roles.</text>
+
+  <rect x="60" y="140" width="290" height="560" rx="24" fill="#EAF3FF"/>
+  <rect x="390" y="140" width="290" height="560" rx="24" fill="#FFF4D8"/>
+  <rect x="720" y="140" width="620" height="560" rx="24" fill="#EDF8F0"/>
+
+  <text x="90" y="188" class="section">Utilisateurs</text>
+  <text x="420" y="188" class="section">Roles</text>
+  <text x="750" y="188" class="section">Privileges</text>
+
+  <rect x="90" y="225" width="230" height="90" rx="18" fill="#FFFFFF" stroke="#95BDF2" stroke-width="2"/>
+  <text x="118" y="260" class="label">alice</text>
+  <text x="118" y="289" class="text">Compte humain</text>
+
+  <rect x="90" y="345" width="230" height="90" rx="18" fill="#FFFFFF" stroke="#95BDF2" stroke-width="2"/>
+  <text x="118" y="380" class="label">bob</text>
+  <text x="118" y="409" class="text">Developpeur</text>
+
+  <rect x="90" y="465" width="230" height="90" rx="18" fill="#FFFFFF" stroke="#95BDF2" stroke-width="2"/>
+  <text x="118" y="500" class="label">analyste</text>
+  <text x="118" y="529" class="text">Lecture seule</text>
+
+  <rect x="90" y="585" width="230" height="90" rx="18" fill="#FFFFFF" stroke="#95BDF2" stroke-width="2"/>
+  <text x="118" y="620" class="label">app_web</text>
+  <text x="118" y="649" class="text">Travail sur les donnees</text>
+
+  <rect x="420" y="225" width="230" height="90" rx="18" fill="#FFFFFF" stroke="#E5BF58" stroke-width="2"/>
+  <text x="448" y="260" class="label">admin</text>
+  <text x="448" y="289" class="text">Gestion et securite</text>
+
+  <rect x="420" y="345" width="230" height="90" rx="18" fill="#FFFFFF" stroke="#E5BF58" stroke-width="2"/>
+  <text x="448" y="380" class="label">developpeur</text>
+  <text x="448" y="409" class="text">Travail sur les donnees</text>
+
+  <rect x="420" y="465" width="230" height="90" rx="18" fill="#FFFFFF" stroke="#E5BF58" stroke-width="2"/>
+  <text x="448" y="500" class="label">lecture_seule</text>
+  <text x="448" y="529" class="text">Consultation seulement</text>
+
+  <rect x="750" y="220" width="250" height="110" rx="18" fill="#FFFFFF" stroke="#8CC79C" stroke-width="2"/>
+  <text x="778" y="255" class="label">Acces de base</text>
+  <text x="778" y="284" class="text">CONNECT sur la base</text>
+  <text x="778" y="309" class="text">USAGE sur le schema</text>
+
+  <rect x="1030" y="220" width="270" height="110" rx="18" fill="#FFFFFF" stroke="#8CC79C" stroke-width="2"/>
+  <text x="1058" y="255" class="label">Lecture</text>
+  <text x="1058" y="284" class="text">SELECT sur les tables</text>
+  <text x="1058" y="309" class="text">SELECT sur certaines sequences</text>
+
+  <rect x="750" y="380" width="250" height="130" rx="18" fill="#FFFFFF" stroke="#8CC79C" stroke-width="2"/>
+  <text x="778" y="415" class="label">Ecriture</text>
+  <text x="778" y="444" class="text">INSERT</text>
+  <text x="778" y="469" class="text">UPDATE</text>
+  <text x="778" y="494" class="text">DELETE</text>
+
+  <rect x="1030" y="380" width="270" height="130" rx="18" fill="#FFFFFF" stroke="#8CC79C" stroke-width="2"/>
+  <text x="1058" y="415" class="label">Actions avancees</text>
+  <text x="1058" y="444" class="text">CREATE</text>
+  <text x="1058" y="469" class="text">EXECUTE</text>
+  <text x="1058" y="494" class="text">Autres droits specifiques</text>
+
+  <path d="M320 270C350 270 374 270 420 270" stroke="#5B8FD9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M406 260L420 270L406 280" stroke="#5B8FD9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M320 390C350 390 374 390 420 390" stroke="#5B8FD9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M406 380L420 390L406 400" stroke="#5B8FD9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M320 510C350 510 374 510 420 510" stroke="#5B8FD9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M406 500L420 510L406 520" stroke="#5B8FD9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M320 630C350 630 374 630 420 390" stroke="#5B8FD9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M406 380L420 390L404 396" stroke="#5B8FD9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M650 270C700 270 700 255 750 255" stroke="#C99A20" stroke-width="4" stroke-linecap="round"/>
+  <path d="M736 245L750 255L736 265" stroke="#C99A20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M650 285C740 285 940 285 1030 280" stroke="#C99A20" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1016 270L1030 280L1016 290" stroke="#C99A20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M650 390C705 390 715 420 750 420" stroke="#C99A20" stroke-width="4" stroke-linecap="round"/>
+  <path d="M736 410L750 420L736 430" stroke="#C99A20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M650 510C740 510 890 540 980 540C1010 540 1020 500 1030 445" stroke="#C99A20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1016 435L1030 445L1016 455" stroke="#C99A20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="80" y="728" width="1240" height="42" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="108" y="755" class="note">Lecture de gauche a droite : on rattache des utilisateurs a des roles, puis on accorde les privileges aux roles.</text>
+</svg>
