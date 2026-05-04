@@ -6,7 +6,7 @@ Notes de cours disponibles en ligne via GitHub Pages.
 
 ## Consulter le site en ligne
 
-**[https://[nom-utilisateur].github.io/cours-etudiants/](https://[nom-utilisateur].github.io/cours-etudiants/)**
+**[Site Web GitHub Pages](https://07b-bd1-h26.github.io/cours-etudiants/)**
 
 ---
 
